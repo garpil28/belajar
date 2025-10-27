@@ -58,7 +58,7 @@ def order_item(message):
 # Tambah menu via bot (admin only)
 @bot.message_handler(commands=['addmenu'])
 def add_menu(message):
-    if message.from_user.username != "adminusername":  # Ganti dengan username kamu
+    if message.from_user.username != "@kopi657" 
         bot.reply_to(message, "Kamu bukan admin!")
         return
     try:
