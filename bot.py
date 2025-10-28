@@ -5,12 +5,12 @@ from dotenv import load_dotenv
 from database import create_tables, add_order, get_menu_items, add_menu_item
 
 load_dotenv()
-BOT_TOKEN = os.getenv("7978577832:AAHAHagcPe5Rigx-6qlE2u339i8zUzMgSlg")
+BOT_TOKEN = os.getenv("7978577832:AAENy9Qm7ZWeyUCODCvo-0CkwypQcMfCkKU")
 LOGS_GROUP_ID = os.getenv("-1003282574590")
 OWNER_ID = 6954401932
 USERNAME_OWNER = @kopi657
 
-bot = telebot.TeleBot("7978577832:AAHAHagcPe5Rigx-6qlE2u339i8zUzMgSlg)
+bot = telebot.TeleBot("7978577832:AAENy9Qm7ZWeyUCODCvo-0CkwypQcMfCkKU)
 create_tables()
 
 # Tambahkan menu default jika kosong
